@@ -2,7 +2,7 @@
 const positions = ['|', '/', '-', '\\'];
 // changes the delay in between prints: for(let time = 100, time <= 10000; time += 200)
 let time = 100;
-//repeat line 7 to 12, i many number of times
+//repeat line 7 to 12, i times
 for (let i = 0; i < 11; i++) {
   for (const position of positions) {
     // console.log(position);
